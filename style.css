@@ -1,0 +1,16 @@
+body{
+    margin-top: 100px;
+    margin-left: 500px;
+    background-color: darkgray;
+}
+h1{
+    color: aqua;
+}
+#age{
+    font-size: x-large;
+    color: aqua;
+}
+#demo1{
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+}

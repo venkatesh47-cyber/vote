@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <title>voting protocols</title>
+        <link rel="stylesheet" href="style.css">
+        <h1>welcome to our site</h1><br>
+        <label id="age">enter your age:
+        <input type="number" id="demo">
+        </input><br><br>
+        <input type="button" onclick="myFunction()" value="submit"></input><br>
+        <p id="demo1"></p>
+    </label><br>
+    
+
+        <script>
+            function myFunction(){
+            var x=document.getElementById("demo").value;
+            if(x>17){
+                document.getElementById("demo1").innerHTML="eligible for vote";
+            }
+        
+            
+            else{
+                document.getElementById("demo1").innerHTML="not eligible for vote";
+            }
+        }
+    </script>
+    </body>
+</html>
+
+
